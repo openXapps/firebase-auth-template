@@ -2,8 +2,8 @@ import React from 'react';
 import useAuth from '../hooks/useAuth';
 
 const userDefault = {
-  email: 'gavin.dalton@standardbank.co.za',
-  password: 'password123'
+  email: process.env.FB_TEST_USER,
+  password: process.env.FB_TEST_PW
 };
 
 const Login = () => {
